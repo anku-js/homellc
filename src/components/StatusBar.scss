@@ -1,22 +1,24 @@
-.statusbar-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 18px 0;
-  font-family: "Abhaya Libre", serif;
-  .statusbar-left {
-    margin-left: 25px;
-    p {
-      font-size: 14px;
-      font-weight: 600;
-      line-height: 17px;
-      letter-spacing: -0.2800000011920929px;
-    }
-  }
-  .statusbar-right {
-    margin-right: 15px;
+.statusbar {
+  .statusbar-container {
     display: flex;
-    gap: 5px;
+    justify-content: space-between;
     align-items: center;
+    padding: 18px 0;
+    font-family: "Abhaya Libre", serif;
+    .statusbar-left {
+      margin-left: 25px;
+      p {
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 17px;
+        letter-spacing: -0.2800000011920929px;
+      }
+    }
+    .statusbar-right {
+      margin-right: 15px;
+      display: flex;
+      gap: 5px;
+      align-items: center;
+    }
   }
 }

@@ -1,0 +1,12 @@
+.navbar {
+  .navbar-container {
+    padding: 10px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .search-icon {
+      font-size: 22px;
+      color: #003339;
+    }
+  }
+}
