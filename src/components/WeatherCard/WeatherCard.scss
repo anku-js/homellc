@@ -1,0 +1,35 @@
+.weathercard {
+  font-family: Abhaya Libre;
+  .weathercard-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    .weathercard-left {
+      .city {
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 29px;
+        letter-spacing: 0.25px;
+        color: #003339;
+      }
+      .date {
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 18px;
+        color: #96969a;
+        margin-top: 6px;
+      }
+      .weather-info {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 18px;
+        color: #057bff;
+        margin-top: 10px;
+      }
+    }
+  }
+}
