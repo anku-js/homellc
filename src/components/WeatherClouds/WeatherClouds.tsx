@@ -36,7 +36,7 @@ export default function WeatherClouds({ weatherForecastData }: Props) {
               >
                 <p className="time">{getTime(dt_txt)}</p>
 
-                <img src={`/images/${weather[0].main}.png`} />
+                <img src={`/images/${weather[0].main}.png`} alt="weather information icon"/>
                 <p className="temperature-info">{tempInCelsius.toFixed(2)}</p>
               </div>
             );

@@ -1,4 +1,3 @@
-import { useState } from "react";
 import "./Navbar.scss";
 import { IoSearch } from "react-icons/io5";
 

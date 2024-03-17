@@ -12,9 +12,9 @@ export default function StatusBar({ isMenuOpen }: { isMenuOpen: boolean }) {
           <p>{currentTime}</p>
         </div>
         <div className="statusbar-right">
-          <img src={isMenuOpen ? "/images/Network-white.png" : "/images/Network.png"} />
-          <img src={isMenuOpen ? "/images/Wifi-white.png" : "/images/Wifi.png"} />
-          <img src={isMenuOpen ? "/images/Battery-white.png" : "/images/Battery.png"} />
+          <img src={isMenuOpen ? "/images/Network-white.png" : "/images/Network.png"} alt="mobile network icon"/>
+          <img src={isMenuOpen ? "/images/Wifi-white.png" : "/images/Wifi.png"} alt="wifi icon"/>
+          <img src={isMenuOpen ? "/images/Battery-white.png" : "/images/Battery.png"} alt="batteryicon for mobile"/>
         </div>
       </div>
     </div>

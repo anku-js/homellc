@@ -41,7 +41,6 @@ interface History {
 }
 
 function Graph({ selected }: { selected: string }) {
-  console.log("selected", selected);
 
   const [historyWeather, setHistoryWeather] = useState({
     minTemp: [0],

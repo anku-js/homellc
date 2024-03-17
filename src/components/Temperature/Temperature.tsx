@@ -2,12 +2,19 @@ import "./Temperature.scss";
 import { FiChevronDown } from "react-icons/fi";
 import { MdKeyboardArrowUp } from "react-icons/md";
 
+interface Props {
+  isSelectActive: boolean,
+  setIsSelectActive: React.Dispatch<React.SetStateAction<boolean>>,
+  selected: string,
+  setIsSelected: React.Dispatch<React.SetStateAction<string>>
+}
+
 export default function Temperature({
   isSelectActive,
   setIsSelectActive,
   selected,
   setIsSelected,
-}) {
+}: Props) {
   const dropDownOptions = [
     {
       id: 1,

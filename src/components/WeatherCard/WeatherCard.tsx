@@ -61,12 +61,12 @@ export default function WeatherCard({ userLocation, currentWeatherData }: Props)
           <p className="city">{country}</p>
           <p className="date">{formattedDate}</p>
           <div className="weather-info">
-            <img src="/images/CloudsBlue.png" />
+            <img src="/images/CloudsBlue.png" alt="Clouds"/>
             <p>{currentWeatherData?.weather[0].main}</p>
           </div>
         </div>
         <div className="weathercard-right">
-          <img src="/images/Bitmap.png" />
+          <img src="/images/Bitmap.png" alt="city"/>
           <div className="live-card">
             <p>LIVE</p>
           </div>
