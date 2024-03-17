@@ -1,0 +1,122 @@
+{
+  "today": [
+    {
+      "id": 1,
+      "hour": "00:00",
+      "minTemp": 15,
+      "maxTemp": 25
+    },
+    {
+      "id": 2,
+      "hour": "01:00",
+      "minTemp": 16,
+      "maxTemp": 26
+    },
+    {
+      "id": 3,
+      "hour": "02:00",
+      "minTemp": 16,
+      "maxTemp": 26
+    },
+    {
+      "id": 4,
+      "hour": "03:00",
+      "minTemp": 16,
+      "maxTemp": 26
+    },
+    {
+      "id": 5,
+      "hour": "04:00",
+      "minTemp": 16,
+      "maxTemp": 26
+    },
+    {
+      "id": 6,
+      "hour": "05:00",
+      "minTemp": 16,
+      "maxTemp": 26
+    },
+    {
+      "id": 7,
+      "hour": "06:00",
+      "minTemp": 16,
+      "maxTemp": 26
+    },
+    {
+      "id": 8,
+      "hour": "07:00",
+      "minTemp": 16,
+      "maxTemp": 26
+    }
+  ],
+  "lastWeek": [
+    {
+      "id": 1,
+      "day": "Monday",
+      "minTemp": 20,
+      "maxTemp": 30
+    },
+    {
+      "id": 2,
+      "day": "Tuesday",
+      "minTemp": 19,
+      "maxTemp": 29
+    },
+    {
+      "id": 3,
+      "day": "Wednesday",
+      "minTemp": 18,
+      "maxTemp": 28
+    },
+    {
+      "id": 4,
+      "day": "Thursday",
+      "minTemp": 17,
+      "maxTemp": 27
+    },
+    {
+      "id": 5,
+      "day": "Friday",
+      "minTemp": 16,
+      "maxTemp": 26
+    },
+    {
+      "id": 6,
+      "day": "Saturday",
+      "minTemp": 15,
+      "maxTemp": 25
+    },
+    {
+      "id": 7,
+      "day": "Sunday",
+      "minTemp": 14,
+      "maxTemp": 24
+    }
+  ],
+  "lastMonth": [
+    {
+      "id": 1,
+      "date": 1,
+      "minTemp": 15,
+      "maxTemp": 25
+    },
+    {
+      "id": 2,
+      "date": 2,
+      "minTemp": 16,
+      "maxTemp": 26
+    },
+    {
+      "id": 30,
+      "date": 30,
+      "minTemp": 14,
+      "maxTemp": 24
+    },
+    {
+      "id": 31,
+      "date": 31,
+      "minTemp": 13,
+      "maxTemp": 23
+    }
+  ]
+}
