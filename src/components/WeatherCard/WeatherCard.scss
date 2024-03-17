@@ -1,10 +1,10 @@
 .weathercard {
+  margin: 35px 25px 0 25px;
   font-family: Abhaya Libre;
   .weathercard-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 25px;
     .weathercard-left {
       .city {
         font-size: 25px;
@@ -29,6 +29,23 @@
         line-height: 18px;
         color: #057bff;
         margin-top: 10px;
+      }
+    }
+    .weathercard-right {
+      position: relative;
+      .live-card {
+        position: absolute;
+        background-color: #ff2d55;
+        border-radius: 6px;
+        bottom: 14px;
+        right: 9px;
+        p {
+          padding: 6px 12px 3px 9px;
+          font-size: 11px;
+          font-weight: 700;
+          line-height: 13px;
+          color: #fff;
+        }
       }
     }
   }

@@ -1,12 +1,93 @@
 .navbar {
   .navbar-container {
-    padding: 10px 25px;
+    padding: 10px 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-family: Abhaya Libre;
+    #nav-icon4 {
+      position: relative;
+      -webkit-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+      -webkit-transition: 0.5s ease-in-out;
+      -moz-transition: 0.5s ease-in-out;
+      -o-transition: 0.5s ease-in-out;
+      transition: 0.5s ease-in-out;
+      cursor: pointer;
+      span {
+        position: absolute;
+        display: block;
+        height: 2px;
+        opacity: 1;
+        left: 0;
+        background: #003339;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transition: 0.25s ease-in-out;
+        -moz-transition: 0.25s ease-in-out;
+        -o-transition: 0.25s ease-in-out;
+        transition: 0.25s ease-in-out;
+      }
+      .bar1 {
+        // top: 0;
+        width: 18px;
+      }
+      .bar2 {
+        top: 6px;
+        width: 14px;
+      }
+    }
+    #nav-icon4 span:nth-child(1) {
+      -webkit-transform-origin: left center;
+      -moz-transform-origin: left center;
+      -o-transform-origin: left center;
+      transform-origin: left center;
+    }
+
+    #nav-icon4 span:nth-child(2) {
+      -webkit-transform-origin: left center;
+      -moz-transform-origin: left center;
+      -o-transform-origin: left center;
+      transform-origin: left center;
+    }
+
+    #nav-icon4.open span:nth-child(1) {
+      top: -10px;
+      width: 24px;
+      -webkit-transform: rotate(45deg);
+      -moz-transform: rotate(45deg);
+      -o-transform: rotate(45deg);
+      transform: rotate(45deg);
+      background: #fff;
+    }
+
+    #nav-icon4.open span:nth-child(2) {
+      // top: 0;
+      width: 24px;
+      -webkit-transform: rotate(-45deg);
+      -moz-transform: rotate(-45deg);
+      -o-transform: rotate(-45deg);
+      transform: rotate(-45deg);
+      background: #fff;
+    }
     .search-icon {
       font-size: 22px;
       color: #003339;
+    }
+    .live {
+      background-color: #ff2d55;
+      border-radius: 6px;
+      p {
+        padding: 7px 15px;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 14px;
+        color: #fff;
+      }
     }
   }
 }

@@ -1,0 +1,38 @@
+.additionalInfo {
+  margin: 56px 25px 0 25px;
+  font-family: Abhaya Libre;
+  .additionalInfo-container {
+    border-top: 1px solid #f1f1f3;
+    border-bottom: 1px solid #f1f1f3;
+    padding: 24px 0;
+    .heading {
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 21px;
+      color: #003339;
+    }
+    .info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 17px;
+      .info-section {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        .info-heading {
+          font-size: 13px;
+          font-weight: 400;
+          line-height: 15px;
+          color: #96969a;
+        }
+        .info-detail {
+          font-size: 15px;
+          font-weight: 700;
+          line-height: 18px;
+          color: #003339;
+        }
+      }
+    }
+  }
+}

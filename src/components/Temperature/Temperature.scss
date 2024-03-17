@@ -1,0 +1,62 @@
+.temperature {
+  margin: 20px 25px;
+  font-family: Abhaya Libre;
+  .temperature-container {
+    .temperature-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .temperature-heading {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 21px;
+        color: #003339;
+      }
+      .dropdown {
+        z-index: 10;
+        width: 97px;
+        position: relative;
+        .dropdown-btn {
+          cursor: pointer;
+          /* background: white; */
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding: 6px 9px;
+          border: 1px solid #003339;
+          border-radius: 5px;
+          font-family: Abhaya Libre;
+          font-size: 10px;
+          font-weight: 700;
+          line-height: 12px;
+          letter-spacing: 0.00028124998789280653px;
+          color: #003339;
+        }
+        .dropdown-content {
+          position: absolute;
+          left: 0;
+          width: 100%;
+          box-shadow: 0 0 8px 1px rgba(0, 0, 0, 0.30);
+          background-color: #fff;
+          .item {
+            padding: 6px 9px;
+            cursor: pointer;
+            font-family: Abhaya Libre;
+            font-size: 10px;
+            font-weight: 700;
+            line-height: 12px;
+            letter-spacing: 0.00028124998789280653px;
+            color: #003339;
+          }
+          .item:hover {
+            background: #f0eded;
+          }
+        }
+        .arrow {
+          font-size: 20px;
+          color: #003339;
+        }
+      }
+    }
+  }
+}

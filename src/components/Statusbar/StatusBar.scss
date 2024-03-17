@@ -3,11 +3,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 18px 0;
+    padding: 16px 15px 11px 21px;
     font-family: "Abhaya Libre", serif;
     .statusbar-left {
-      margin-left: 25px;
       p {
+        text-align: center;
+        width: 54px;
         font-size: 14px;
         font-weight: 600;
         line-height: 17px;
@@ -15,7 +16,6 @@
       }
     }
     .statusbar-right {
-      margin-right: 15px;
       display: flex;
       gap: 5px;
       align-items: center;

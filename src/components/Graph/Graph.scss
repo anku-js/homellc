@@ -1,0 +1,15 @@
+.graph {
+  height: 252px;
+  p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 252px;
+    width: 100%;
+    color: #000;
+  }
+  canvas {
+    height: 252px!important;
+    width: 100%!important;
+  }
+}
